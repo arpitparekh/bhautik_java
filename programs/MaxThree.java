@@ -1,14 +1,11 @@
-package programs;
-
-public class MaxThree
-{
+public class MaxThree {
 
   public static void main(String[] args) {
 
     // Write a program to find a maximum between three numbers.
     int a = 50, b = 70, c = 30;
 
-    if (a > b && a>c) {   // a<b a<c
+    if (a > b && a > c) { // a<b a<c
       System.out.println("a is greater");
     } else if (b > c) {
       System.out.println("b is greater");
@@ -16,10 +13,9 @@ public class MaxThree
       System.out.println("c is greater");
     }
 
-
     int x = 10, y = 20, z = 30, p = 40;
 
-    if(x>y && x>z && x>p){
+    if (x > y && x > z && x > p) {
       System.out.println("x is greater");
     } else if (y > z && y > p) {
       System.out.println("y is greater");
@@ -29,12 +25,11 @@ public class MaxThree
       System.out.println("p is greater");
     }
 
-
     // Write a program to check whether a number is divisible by 5 and 11 or not.
 
     int g = 55;
 
-    if(g%5==0 && g%11==0){
+    if (g % 5 == 0 && g % 11 == 0) {
       System.out.println("divisible by 5 and 11");
     } else {
       System.out.println("not divisible by 5 and 11");
@@ -44,7 +39,7 @@ public class MaxThree
 
     int k = 5;
 
-    if(k%2==0){
+    if (k % 2 == 0) {
       System.out.println("even");
     } else {
       System.out.println("odd");
@@ -53,7 +48,7 @@ public class MaxThree
     // Write a program to check whether a year is a leap year or not.
 
     int year = 2000;
-    if(year%4==0){
+    if (year % 4 == 0) {
       System.out.println("leap year");
     } else {
       System.out.println("not leap year");
@@ -63,13 +58,14 @@ public class MaxThree
 
     char ch = ' ';
 
-    if ((ch >= 'a' && ch <= 'z')|| (ch >= 'A' && ch <= 'Z')) {
+    if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
       System.out.println("in the alphabet");
     } else {
       System.out.println("not in the alphabet");
     }
 
-    // Write a program to input any alphabet and check whether it is vowel or consonant
+    // Write a program to input any alphabet and check whether it is vowel or
+    // consonant
 
     char vowel = 'a';
 
@@ -78,7 +74,6 @@ public class MaxThree
     } else {
       System.out.println("consonant");
     }
-
 
     /*
      * Write a program to input electricity unit charges and calculate total
@@ -98,7 +93,6 @@ public class MaxThree
     if (unit <= 50) {
       amount = amount + (unit * 0.50);
     }
-
 
     // ternary operator
     // ? :
