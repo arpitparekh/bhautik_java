@@ -26,7 +26,7 @@
 
 // IDEs // integrated development environment
 
-class MyClass {
+public class MyClass {
 
   public static void main(String[] args) {
 
