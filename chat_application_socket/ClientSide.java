@@ -9,8 +9,8 @@ public class ClientSide extends Thread {
   @Override
   public void run() {
     try {
-      Socket socket = new Socket("192.168.96.199", 6668);
-      System.out.println("Client is running on port 6668");
+      Socket socket = new Socket("localhost", 8080);
+      System.out.println("Client is running on port 8080");
       System.out.println("Connected to server");
 
       Scanner sc = new Scanner(System.in);
